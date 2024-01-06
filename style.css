@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    margin: 0;
+}
+.pass-card{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(51, 151, 164);
+    border-radius: 7px;
+    padding-left: 100px;
+}
+.pass-card h2{
+    color:white;
+}
+.pass-card h3{
+    color: rgb(0, 255, 0);
+    text-decoration: underline;
+}
+.pass-input{
+    height: 40px;
+    width: 300px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+.input-img img{
+    height: 41px;
+    width: 40px;
+    margin-left: -46px;
+    margin-bottom: -15px;
+    cursor: pointer;
+
+}
+span{
+    background-color: rgb(41, 202, 41);
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
